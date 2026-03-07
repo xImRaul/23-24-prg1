@@ -4,13 +4,13 @@ class Reto4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un primer numero de 3 cifras");
-        int numero1 = scanner.nextInt();
+        int numeroCentenas = scanner.nextInt();
 
         System.out.println("Introduce un segundo numero de 3 cifras");
-        int numero2 = scanner.nextInt();
+        int numeroDecenas = scanner.nextInt();
 
         System.out.println("Introduce un tercer numero de 3 cifras");
-        int numero3 = scanner.nextInt();
+        int numeroUnidades = scanner.nextInt();
 
         int digito1 = numero1 >= 100 && numero1 <= 999 ? numero1 / 100 : null;
         int digito2 = numero2 >= 100 && numero2 <= 999 ? numero2 % 100 : null;
