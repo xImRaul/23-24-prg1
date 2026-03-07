@@ -12,11 +12,11 @@ class Reto4 {
         System.out.println("Introduce un tercer numero de 3 cifras");
         int numero3 = scanner.nextInt();
 
-        int digito1 = numero1 >= 100 && numero1 <= 999 ? numero1 / 100 : null;
-        int digito2 = numero2 >= 100 && numero2 <= 999 ? numero2 % 100 : null;
+        int digito1 = numero1 >= 100 && numero1 <= 999 ? numero1 / 100 : 0;
+        int digito2 = numero2 >= 100 && numero2 <= 999 ? numero2 % 100 : 0;
         double digito2_1 = digito2 * 0.1;
         int digito2final = (int) digito2_1;
-        int digito3 = numero3 >= 100 && numero3 <= 999 ? numero3 % 10 : null;
+        int digito3 = numero3 >= 100 && numero3 <= 999 ? numero3 % 10 : 0;
 
         int numeroFinal = digito1 * 100 + digito2final * 10 + digito3;
 
