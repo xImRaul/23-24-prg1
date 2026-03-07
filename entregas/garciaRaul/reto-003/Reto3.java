@@ -12,13 +12,15 @@ class Reto3 {
         int monedas2 = 0;
         int monedas1 = 0;
 
-        Scanner  teclado = new Scanner(System.in); 
-
         System.out.println("Cuanto dinero debes? ");
-        int cantidadAPagar = teclado.nextInt(); 
+        Scanner scanner1 = new Scanner(System.in);
+        int cantidad_Pagar = scanner1.nextInt();
 
-        System.out.println("Cuanto dinero has entregado? ");
-        int cantidadEntregada = teclado.nextInt(); 
+        System.out.println("Cuanto dinero has entragado? ");
+        Scanner scanner2 = new Scanner(System.in);
+        int cantidadEntregada = scanner2.nextInt();
+        int cantidad_Devolver = cantidadEntregada - cantidad_Pagar;
+
         System.out.println("-------------------------");
 
         billetes100 = cantidad_Devolver / 100;
