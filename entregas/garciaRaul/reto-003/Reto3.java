@@ -19,7 +19,6 @@ class Reto3 {
 
         System.out.println("Cuanto dinero has entregado? ");
         int cantidadEntregada = teclado.nextInt(); 
-        System.out.println("-------------------------");
 
         billetes100 = cantidad_Devolver / 100;
         cantidad_Devolver = cantidad_Devolver - (100 * billetes100);
