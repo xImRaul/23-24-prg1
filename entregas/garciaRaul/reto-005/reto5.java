@@ -7,10 +7,7 @@ class Reto5 {
         int numero1 = scanner.nextInt();
         System.out.println("Dime un segundo numero entero");
         int numero2 = scanner.nextInt();
-
-        String mayor_Menor = numero1 > numero2 ? "El numero mayor es " + numero1 : "El numero mayor es " + numero2;
-        System.out.println(mayor_Menor);
-
+        
+        System.out.println(numero1 > numero2 ? "El numero mayor es " + numero1 : "El numero mayor es " + numero2);
     }
-
 }
